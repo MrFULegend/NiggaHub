@@ -1,0 +1,275 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local NiggaHubTitle = Instance.new("TextLabel")
+local AntiAFK = Instance.new("TextButton")
+local AntiIPLogger = Instance.new("TextButton")
+local BruhHub = Instance.new("TextButton")
+local FathomHub = Instance.new("TextButton")
+local EzHub = Instance.new("TextButton")
+local CmdX = Instance.new("TextButton")
+local EGodBSSAutoFarm = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local PepsiSwarm = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local ForceResetCharacter = Instance.new("TextButton")
+local CtrlClickTP = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.0550765358, 0, 0.229903534, 0)
+Frame.Size = UDim2.new(0, 660, 0, 334)
+Frame.Active = true
+Frame.Draggable = true
+
+NiggaHubTitle.Name = "Nigga Hub Title"
+NiggaHubTitle.Parent = Frame
+NiggaHubTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+NiggaHubTitle.Size = UDim2.new(0, 660, 0, 40)
+NiggaHubTitle.Font = Enum.Font.SourceSans
+NiggaHubTitle.Text = "NIGGA HUB (Toggle Button Is ])"
+NiggaHubTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+NiggaHubTitle.TextScaled = true
+NiggaHubTitle.TextSize = 14.000
+NiggaHubTitle.TextWrapped = true
+
+AntiAFK.Name = "Anti AFK"
+AntiAFK.Parent = Frame
+AntiAFK.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFK.Position = UDim2.new(0.0272727273, 0, 0.170202881, 0)
+AntiAFK.Size = UDim2.new(0, 179, 0, 50)
+AntiAFK.Font = Enum.Font.SourceSans
+AntiAFK.Text = "Anti AFK"
+AntiAFK.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.TextScaled = true
+AntiAFK.TextSize = 14.000
+AntiAFK.TextWrapped = true
+AntiAFK.MouseButton1Down:connect(function()
+	wait(0.5)local ba=Instance.new("ScreenGui")
+	local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
+	local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
+	ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
+	ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
+	ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,370,0,52)
+	ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Big Toe Script"ca.TextColor3=Color3.new(0,1,1)
+	ca.TextSize=22;da.Parent=ca
+	da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
+	da.Size=UDim2.new(0,370,0,107)_b.Parent=da
+	_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
+	_b.Size=UDim2.new(0,370,0,21)_b.Font=Enum.Font.Arial;_b.Text="Use My Big Toe"
+	_b.TextColor3=Color3.new(0,1,1)_b.TextSize=20;ab.Parent=da
+	ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377,0)
+	ab.Size=UDim2.new(0,370,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Status: Active"
+	ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
+	game:service'Players'.LocalPlayer.Idled:connect(function()
+		bb:CaptureController()bb:ClickButton2(Vector2.new())
+		ab.Text="Roblox Tried to kick you but we didnt let them kick you!"wait(2)ab.Text="Status : Active"end)
+end)
+
+AntiIPLogger.Name = "Anti IP Logger"
+AntiIPLogger.Parent = Frame
+AntiIPLogger.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+AntiIPLogger.Position = UDim2.new(0.363636374, 0, 0.170202881, 0)
+AntiIPLogger.Size = UDim2.new(0, 179, 0, 50)
+AntiIPLogger.Font = Enum.Font.SourceSans
+AntiIPLogger.Text = "Anti IP Logger"
+AntiIPLogger.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiIPLogger.TextScaled = true
+AntiIPLogger.TextSize = 14.000
+AntiIPLogger.TextWrapped = true
+AntiIPLogger.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/68656c702e/anti-ip-logger/main/main.lua", true))()
+end)
+
+BruhHub.Name = "Bruh Hub"
+BruhHub.Parent = Frame
+BruhHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BruhHub.Position = UDim2.new(0.700000048, 0, 0.170202881, 0)
+BruhHub.Size = UDim2.new(0, 179, 0, 50)
+BruhHub.Font = Enum.Font.SourceSans
+BruhHub.Text = "Bruh Hub"
+BruhHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+BruhHub.TextScaled = true
+BruhHub.TextSize = 14.000
+BruhHub.TextWrapped = true
+BruhHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://bruh.keshhub.com/main.lua"))()
+end)
+
+FathomHub.Name = "Fathom Hub"
+FathomHub.Parent = Frame
+FathomHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+FathomHub.Position = UDim2.new(0.362121254, 0, 0.567280352, 0)
+FathomHub.Size = UDim2.new(0, 179, 0, 50)
+FathomHub.Font = Enum.Font.SourceSans
+FathomHub.Text = "Fathom Hub"
+FathomHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+FathomHub.TextScaled = true
+FathomHub.TextSize = 14.000
+FathomHub.TextWrapped = true
+FathomHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FKrLCtsF", true))()
+end)
+
+EzHub.Name = "Ez Hub"
+EzHub.Parent = Frame
+EzHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EzHub.Position = UDim2.new(0.0272727609, 0, 0.567280352, 0)
+EzHub.Size = UDim2.new(0, 179, 0, 50)
+EzHub.Font = Enum.Font.SourceSans
+EzHub.Text = "Ez Hub"
+EzHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+EzHub.TextScaled = true
+EzHub.TextSize = 14.000
+EzHub.TextWrapped = true
+EzHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+end)
+
+CmdX.Name = "Cmd-X"
+CmdX.Parent = Frame
+CmdX.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CmdX.Position = UDim2.new(0.0272727609, 0, 0.361247629, 0)
+CmdX.Size = UDim2.new(0, 179, 0, 50)
+CmdX.Font = Enum.Font.SourceSans
+CmdX.Text = "Cmd-X"
+CmdX.TextColor3 = Color3.fromRGB(255, 255, 255)
+CmdX.TextScaled = true
+CmdX.TextSize = 14.000
+CmdX.TextWrapped = true
+CmdX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
+EGodBSSAutoFarm.Name = "EGod BSS Auto Farm"
+EGodBSSAutoFarm.Parent = Frame
+EGodBSSAutoFarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+EGodBSSAutoFarm.Position = UDim2.new(0.700000048, 0, 0.361247629, 0)
+EGodBSSAutoFarm.Size = UDim2.new(0, 179, 0, 50)
+EGodBSSAutoFarm.Font = Enum.Font.SourceSans
+EGodBSSAutoFarm.Text = "EGod BSS Auto Farm"
+EGodBSSAutoFarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+EGodBSSAutoFarm.TextScaled = true
+EGodBSSAutoFarm.TextSize = 14.000
+EGodBSSAutoFarm.TextWrapped = true
+EGodBSSAutoFarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/AltsegoD/script/master/BeeSwarmSimulator.lua')))()
+end)
+
+DarkHub.Name = "Dark Hub"
+DarkHub.Parent = Frame
+DarkHub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.Position = UDim2.new(0.362121254, 0, 0.361247629, 0)
+DarkHub.Size = UDim2.new(0, 179, 0, 50)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "Dark Hub"
+DarkHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.TextScaled = true
+DarkHub.TextSize = 14.000
+DarkHub.TextWrapped = true
+DarkHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://darkhub.xyz/remote-script.lua", true))()
+end)
+
+PepsiSwarm.Name = "Pepsi Swarm"
+PepsiSwarm.Parent = Frame
+PepsiSwarm.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PepsiSwarm.Position = UDim2.new(0.700000048, 0, 0.570274353, 0)
+PepsiSwarm.Size = UDim2.new(0, 179, 0, 50)
+PepsiSwarm.Font = Enum.Font.SourceSans
+PepsiSwarm.Text = "Pepsi Swarm"
+PepsiSwarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+PepsiSwarm.TextScaled = true
+PepsiSwarm.TextSize = 14.000
+PepsiSwarm.TextWrapped = true
+PepsiSwarm.MouseButton1Down:connect(function()
+	shared.autoload = false -- change to profile name if you want to autoload (afking/autojoin). eg. shared.autoload = "profile"
+	loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+end)
+
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = Frame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.Position = UDim2.new(0.0257575978, 0, 0.788238406, 0)
+PrisonLife.Size = UDim2.new(0, 179, 0, 50)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.TextScaled = true
+PrisonLife.TextSize = 14.000
+PrisonLife.TextWrapped = true
+PrisonLife.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Sjorbiia/X-Scripts/master/PrisonXV3.5%20-%20Experimental.lua'),true))()
+end)
+
+ForceResetCharacter.Name = "Force Reset Character"
+ForceResetCharacter.Parent = Frame
+ForceResetCharacter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ForceResetCharacter.Position = UDim2.new(0.362121224, 0, 0.788238406, 0)
+ForceResetCharacter.Size = UDim2.new(0, 179, 0, 50)
+ForceResetCharacter.Font = Enum.Font.SourceSans
+ForceResetCharacter.Text = "Force Reset Character"
+ForceResetCharacter.TextColor3 = Color3.fromRGB(255, 255, 255)
+ForceResetCharacter.TextScaled = true
+ForceResetCharacter.TextSize = 14.000
+ForceResetCharacter.TextWrapped = true
+ForceResetCharacter.MouseButton1Down:connect(function()
+	while true do
+		game:GetService("StarterGui"):SetCore("ResetButtonCallback", true)
+		game:GetService("RunService").RenderStepped:Wait()
+	end
+end)
+
+CtrlClickTP.Name = "Ctrl+Click TP"
+CtrlClickTP.Parent = Frame
+CtrlClickTP.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CtrlClickTP.Position = UDim2.new(0.700000048, 0, 0.788238406, 0)
+CtrlClickTP.Size = UDim2.new(0, 179, 0, 50)
+CtrlClickTP.Font = Enum.Font.SourceSans
+CtrlClickTP.Text = "Ctrl+Click TP"
+CtrlClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
+CtrlClickTP.TextScaled = true
+CtrlClickTP.TextSize = 14.000
+CtrlClickTP.TextWrapped = true
+CtrlClickTP.MouseButton1Down:connect(function()
+	local plr = game:GetService("Players").LocalPlayer
+	local hum = plr.Character.HumanoidRootPart
+	local mouse = plr:GetMouse()
+	--+--
+	local speed = 0.25
+	--+--
+	local mouseconnection
+	game:GetService("UserInputService").InputBegan:Connect(function(i,g)
+		if not g and i.KeyCode == Enum.KeyCode.LeftControl then --- the hot key is "LeftControl" You can change it to anything like e or q just aslong as u hold the key you chose it should work
+			mouseconnection = mouse.Button1Down:Connect(function()
+				game:GetService('TweenService'):Create(hum, TweenInfo.new(speed), {CFrame = CFrame.new(mouse.Hit.p + Vector3.new(0,3,0))}):Play()
+			end)
+		end
+	end)
+	game:GetService("UserInputService").InputEnded:Connect(function(i,g)
+		if i.KeyCode == Enum.KeyCode.LeftControl and mouseconnection then
+			mouseconnection:Disconnect()
+		end
+	end)
+end)
+
+-- Scripts:
+
+local function XHVEL_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local frame = script.Parent -- path to the frame
+	local mouse = game:GetService('Players').LocalPlayer:GetMouse(); -- we need the mouse object, which also has the keyboard
+	
+	mouse.KeyDown:connect(function(key) -- whenever a key is pushed down
+		key = key:lower() -- i do this in all my key events, though i don't remember why
+		if key == ']' then -- if key pressed is h
+			frame.Visible = not frame.Visible -- flip between visible/invisible
+		end
+	end)
+end
+coroutine.wrap(XHVEL_fake_script)()
